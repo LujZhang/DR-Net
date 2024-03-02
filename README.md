@@ -1,18 +1,8 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)
-[![GitHub Stars](https://img.shields.io/github/stars/QingyongHu/SQN?style=social)](https://github.com/QingyongHu/SQN)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=QingyongHu/SQN)
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
-# SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds (ECCV2022)
 
-This is the official repository of the **Semantic Query Network (SQN)**. For technical details, please refer to:
+This is the official repository of the **Dilated Regions Network (DR-Net)**. For technical details, please refer to:
 
-**SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds** <br />
-[Qingyong Hu](https://qingyonghu.github.io/), [Bo Yang](https://yang7879.github.io/), [Guangchi Fang]()
-, [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/),
-[Yulan Guo](http://yulanguo.me/), [Niki Trigoni](https://www.cs.ox.ac.uk/people/niki.trigoni/)
-, [Andrew Markham](https://www.cs.ox.ac.uk/people/andrew.markham/). <br />
-**[[Paper](https://arxiv.org/abs/2104.04891)] [[Video](https://youtu.be/Q6wICSRRw3s)]** <br />
+**Weakly-supervised Point Cloud Semantic Segmentation Based on Dilated Region** <br />
 
 ### (1) Setup
 
@@ -41,34 +31,13 @@ dataset [path](https://github.com/QingyongHu/SQN/blob/f75eb51532a5319c0da5320c20
 
 - Start training with weakly supervised setting:
 ```
-python main_Semantic3D.py --mode train --gpu 0 --labeled_point 0.1%
+python main_S3DIS.py --mode train --gpu 0 --labeled_point 0.1%
 ```
 - Evaluation:
 ```
-python main_Semantic3D.py --mode test --gpu 0 --labeled_point 0.1%
+python main_S3DIS.py --mode test --gpu 0 --labeled_point 0.1%
 ```
 
-Quantitative results achieved by our SQN:
-
-| ![2](imgs/Semantic3D.gif)   | ![z](imgs/SensatUrban.gif) |
-| ------------------------------ | ---------------------------- |
-| ![2](imgs/Toronto3D.gif)   | ![z](imgs/S3DIS.gif) |
-
-### (3) Sparse Annotation Demo
-
-<p align="center"> <a href="https://youtu.be/N0UAeY31msY"><img src="imgs/Demo_cover.png" width="70%"></a> </p>
-
-
-### Citation
-
-If you find our work useful in your research, please consider citing:
-
-	@inproceedings{hu2021sqn,
-      title={SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds},
-      author={Hu, Qingyong and Yang, Bo and Fang, Guangchi and Guo, Yulan and Leonardis, Ales and Trigoni, Niki and Markham, Andrew},
-      booktitle={European Conference on Computer Vision},
-      year={2022}
-    }
 
 ## Related Repos
 
