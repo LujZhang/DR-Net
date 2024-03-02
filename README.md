@@ -11,7 +11,7 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN 7
 - Clone the repository
 
 ```
-git clone --depth=1 https://github.com/QingyongHu/SQN && cd SQN
+git clone --depth=1 https://github.com/LujZhang/DR-Net && cd DR-Net
 ```
 
 - Setup python environment
