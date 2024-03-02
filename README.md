@@ -23,7 +23,7 @@ pip install -r helper_requirements.txt
 sh compile_op.sh
 ```
 
-### (2) Training (Semantic3D as example)
+### (2) Training (S3DIS as example)
 
 First, follow the RandLA-Net [instruction](https://github.com/QingyongHu/RandLA-Net) to prepare the dataset, and then
 manually change the
