@@ -2,7 +2,7 @@
 
 This is the official repository of the **Dilated Regions Network (DR-Net)**. For technical details, please refer to:
 
- <a https://ieeexplore.ieee.org/abstract/document/10488461/>**Weakly-supervised Point Cloud Semantic Segmentation Based on Dilated Region** <br /></a>
+ <a href=https://ieeexplore.ieee.org/abstract/document/10488461/> **Weakly-supervised Point Cloud Semantic Segmentation Based on Dilated Region** <br /></a>
 
 ### (1) Setup
 
